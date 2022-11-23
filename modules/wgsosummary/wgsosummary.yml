@@ -1,0 +1,23 @@
+title: Sequence Ontology Summary
+version: 1.7.0
+no_data: true
+required_annotator: base
+requires_oakvar: '>=2.5.20'
+type: webviewerwidget
+description: Sequence Ontology Summary result viewer widget
+developer:
+  name: Ryangguk Kim
+  organization: Oak Bioinformatics, LLC
+  email: rkim@oakbioinformatics.com
+  website: http://oakbioinformatics.com
+  citation:
+tags:
+  - visualization
+release_note:
+  1.7.0: 600-based sizing
+  1.6.0: updated as loaded with filters
+  1.5.0: New color scheme
+  1.4.0: greyed out variants grouped to other
+  1.3.0: improved to work with oc 1.8.1.
+  1.2.1: works with oc 1.8.1 and 2nd phase new hg38.
+  1.2.0: works with single variant page in oc 1.7.0.

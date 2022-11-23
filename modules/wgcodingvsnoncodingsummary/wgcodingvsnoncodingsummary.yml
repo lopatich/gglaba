@@ -1,0 +1,25 @@
+title: Coding vs Noncoding Summary
+version: 1.4.1
+no_data: true
+requires_oakvar: '>=2.5.24'
+required_annotator: base
+type: webviewerwidget
+description: Coding vs noncoding summary webviewer widget
+developer:
+  name: Ryangguk Kim
+  organization: Oak Bioinformatics, LLC
+  email: rkim@oakbioinformatics.com
+  website: http://oakbioinformatics.com
+  citation: ''
+release_note:
+  1.4.1: fixed where.
+  1.4.0: 600-based sizing
+  1.3.0: works with filtered loading.
+  1.2.0: New color scheme
+  1.1.3: works with oc 1.8.1 and 2nd phase new hg38.
+  1.1.2: Fixed coding intergenic coming as null.
+  1.1.1: Intergenic variants correctly counted as non-coding.
+  1.1.0: works with single variant page in oc 1.7.0.
+  1.0.6: aiosqlite3 version
+tags:
+- visualization

@@ -1,0 +1,56 @@
+title: Samples and Tags
+version: 2.0.0
+no_data: true
+requires_opencravat: '>=1.8.1'
+type: postaggregator
+name: tagsampler
+level: variant
+input_level: variant,crs,crm
+output_columns:
+- name: genotypes
+  title: Genotypes
+  type: string
+  width: 55
+  filterable: false
+  hidden: false
+  desc: Genotypes from all samples
+- name: numsample
+  title: Sample Count
+  type: int
+  width: 55
+  filterable: false
+  hidden: true
+  desc: Number of samples which contain the variant.
+- name: samples
+  title: Samples
+  type: string
+  width: 65
+  desc: Samples which contain the variant.
+- name: tags
+  title: Tags
+  type: string
+  width: 65
+  desc: Variant tags from the input file.
+  hidden: true
+description: Aggregates tags and samples
+developer:
+  name: "Ryangguk Kim"
+  organization: "Oak Bioinformatics, LLC"
+  email: "rkim@oakbioinformatics.com"
+  website: "https://oakbioinformatics.com"
+  citation: ""
+release_note:
+  2.0.0: oakvar version. genotype added.
+  1.1.5: fixed sample sort problem to match value order.
+  1.1.4: for oc 1.8.1 without multi cat for samples
+  1.1.3: for oc 1.8.0 with multi cat for samples restored
+  1.1.2: removed multi from sample_id for speed.
+  1.0.2: removed multi cat from tags for speed
+  1.0.4: handles samples that are null
+  1.0.5: assigned filterable.
+  1.0.8: fix syntax error
+  1.0.9: adjust width for Number of Samples
+  1.0.10: change column widths and desc
+  1.0.11: hide num samples and tags
+  1.1.0: adds no-sample if no sample is given throughout input
+  1.1.1: reduced memory use

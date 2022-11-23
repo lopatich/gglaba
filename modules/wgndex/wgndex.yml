@@ -1,0 +1,19 @@
+title: NDEx
+version: 1.2.0
+no_data: true
+type: webviewerwidget
+required_annotator: ndex
+description: NDEx webviewer widget
+developer:
+  name: Ryangguk Kim
+  organization: Oak Bioinformatics, LLC
+  email: rkim@oakbioinformatics.com
+  website: https://oakbioinformatics.com
+  citation: ''
+tags:
+- visualization
+hidden: true
+requires_oakvar: '>=2.5.20'
+release_note:
+  1.2.0: oakvar version
+  1.1.0: works with single variant page in oc 1.7.0.

@@ -1,0 +1,29 @@
+title: Excel Reporter
+version: 2.2.1
+no_data: true
+type: reporter
+description: Microsoft Excel reporter
+requires_oakvar: '>=2.5.0'
+output_filename_schema:
+- '{run_name}.xlsx'
+pypi_dependencies:
+- xlsxwriter
+developer:
+  name: Ryangguk Kim
+  organization: Oak Bioinformatics, LLC
+  email: rkim@oakbioinformatics.com
+  website: https://oakbioinformatics.com
+  citation: ''
+release_note:
+  2.2.0: for OakVar
+  2.1.1: skips if num uniq var > 1048576.
+  2.1.0: works with --concise-report.
+  2.0.0: returns excel file path.
+  1.0.7: for oc 1.8.1 and hg38 2nd
+  1.0.6: added output_filename_schema.
+  1.0.5: sync write_table_row
+  1.0.4: async write_table_row
+  1.0.2: regex substitution
+  1.0.1: changed hyperlink format to use "[WEB:]"
+tags:
+- input/output

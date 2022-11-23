@@ -1,0 +1,34 @@
+title: VCF Reporter
+version: 4.2.0
+no_data: true
+type: reporter
+description: VCF format text file reporter
+requires_oakvar: '>=2.6.0'
+pypi_dependencies:
+  - PyVCF3
+output_filename_schema:
+- '{run_name}.vcf'
+developer:
+  name: Ryangguk Kim
+  organization: Oak Bioinformatics LLC
+  email: rkim@oakbioinformatics.com
+  website: https://www.oakbioinformatics.com
+  citation: ''
+private: false
+hidden: false
+tags:
+- input/output
+module_options:
+  - name: type
+    title: Field type
+    type: string
+    method: select
+    options:
+      - separate
+      - combined
+    help: separate will use ov_column format for each annotation field. combined will combine annotation fields into one OV field.
+release_note:
+  4.2.0: works with OakVar 2.6.0.
+  4.1.0: added colnos back.
+  4.0.1: escapes space (for plink2).
+  4.0.0: uses PyVCF3.

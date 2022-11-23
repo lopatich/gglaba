@@ -1,0 +1,341 @@
+#Chrom	Position	Strand	Ref	Alt	Sample	Tag
+#Plus Strand Tests
+chr1	155208824	+	C	T	S1	plus_SBS_MIS
+chr1	155208824	+		G	S2	plus_SBS_MIS_NoReference
+chr1	155208825	+		A	S2	plus_SBS_MIS_NoReference2
+chr1	155210348	+	C	T		plus_SBS_SYN
+chr1	155213481	+	C	T		plus_us_int
+chr1	155213482	+	A	C		plus_us_ss1
+chr1	155213483	+	G	T		plus_us_ss2
+chr1	155213392	+	G	T		plus_ds_ss1
+chr1	155213393	+	T	C		plus_ds_ss2
+chr1	155213394	+	A	T		plus_ds_int
+chr1	59868328	+	G	T		plus_STG
+chr6	42929620	+	-	AAA		plus_STG2
+chr8	43018497	+	A	G		plus_STL
+chr17	47310203	+	-	CCC		plus_STL2
+chr6	42929621	+	-	ACC		plus_IFI
+chr18	54269588	+	CGA	-		plus_IFD
+chr12	50081180	+	-	T		plus_FI1
+chr17	47310187	+	-	AAAAA		plus_FI2
+chr4	85972104	+	T	-		plus_FSD
+chr1	110340653	+	CGGCTTT	-		plus_FSD7
+chr18	54292038	+	TGTAA	-		plus_del_beyond_exon
+chr1	155206796	+	C	G		plus_before_us_start
+chr1	155206797	+	G	C		plus_at_us_start
+chr1	155208796	+	G	T		plus_before_us_end
+chr1	155208797	+	T	C		plus_at_utr_start
+chr1	155213823	+	A	C		plus_at_utr_end
+chr1	155213824	+	C	A		plus_at_ds_start
+chr1	155215823	+	C	A		plus_at_ds_end
+chr1	155215824	+	A	C		plus_after_ds_end
+#Minus Strand
+chr17	43047643	+	C	T	S1	minus_SBS_MIS
+chr17	43047643	+		G	S2	minus_SBS_MIS_NoReferende
+chr17	41624183	+	G	A		minus_SBS_SYN
+chr17	41624191	+	C	T		minus_SBS_weird
+chr17	43079400	+	C	T		minus_spl1
+chr17	43079401	+	T	C		minus_spl2
+chr17	43079402	+	G	T		minus_int_start
+chr17	43082401	+	C	T		minus_int_end
+chr17	43082402	+	A	T		minus_sple1
+chr17	43082403	+	C	T		minus_sple2
+chr12	101395640	+	T	G		minus_STL
+chr1	235181776	+	G	C		minus_STG
+chr1	235255683	+	GTTA	-		minus_FSD
+chr14	45223925	+	GTTTCTGT	-		minus_FSD8
+chrX	153907795	+	-	G		minus_FSI
+chr5	180603295	+	-	CC		minus_FSI2
+chr1	154869723	+	-	GCT		minus_IFI
+chr19	49423274	+	CAG	-		minus_IFD
+chr17	41626576	+	A	G		minus_before_us_start
+chr17	41626575	+	C	T		minus_at_us_start
+chr17	41624576	+	A	C		minus_at_us_end
+chr17	41624575	+	T	C		minus_at_utr_start
+chr17	41619442	+	T	G		minus_at_utr_end
+chr17	41619441	+	A	G		minus_at_ds_start
+chr17	41617442	+	G	C		minus_at_ds_end
+chr17	41617441	+	G	C		minus_after_ds_end
+chr1	155206698	+	C	AT		del_plus    Intergenic
+chr1	155206698	+	CG	T		del_plus    Intergenic_2ku
+chr1	155206699	+	G	CA		del_plus    2KU
+chr1	155208698	+	CA	T		del_plus    2ku_utr5_discuss
+chr1	155208699	+	A	GG		del_plus    UTR5
+chr1	155208804	+	CA	T		del_plus    utr5_atg_discuss
+chr6	87409841	+	TG	A		del_plus    p.Met1Thr
+chr6	87409842	+	GCCTCCAACTCA	CC		del_plus    p.Pro2_Gln5del
+chr6	87409842	+	GCCTCCAACTCAG	AA		del_plus    p.Pro3Lysfs*4
+chr6	87409844	+	CT	G		del_plus    p.Pro2Leufs*10
+chr1	1014474	+	GC	T		del_plus    p.Set157Ilefs*?
+chr1    1014416 +   AGC T   del_plus    p.Ser146del
+chr1    1014405 +   TCA G   del_plus    p.Leu134_Lys135delinsGln
+chr6    87409947    +   G   CA  del_plus    p.Val37Ter
+chr6    87409943    +   TTATGGTAAG  AAA del_plus    p.Phe35Ter
+chr6    87409949    +   T   GG  del_plus    P.Val37Glufs*7
+chr6    87409949    +   TAAG    CC  del_plus    P.Val37Glufs*6
+chr6    87409960    +   ATTT    CC  del_plus    INT_CFAP206
+chr6    87410575    +   TTTTTTCTAG  GGT del_plus    intron_spa_del_discuss
+chr6    87410583    +   AG  C   del_plus    SPL_discuss
+chr6    87410584    +   G   CC  del_plus    p.Val37Ter_discuss
+chr6    87410584    +   GGT CC  del_plus    p.Val37del
+chr6    87410584    +   GG  T   del_plus    SPL_CFAP206_discuss
+chr1    1014478 +   A   TT  del_plus    p.Ter158Ter_fsd
+chr1    1014478 +   AGG CC  del_plus    p.Ter158Ter_ind
+chr1    1014477 +   AAGG    CT  del_plus    p.Ter158Cysfs*14
+chr1    1014482 +   C   GT  del_plus    UTR3_ISG15
+chr1    1014540 +   AT  GC  del_plus    utr3_2kd_discuss
+chr6    87464480    +   T   AA  del_plus    2KD_ISG15
+chr6    87466465    +   CA  TT  del_plus    2kd_intergenic_discuss
+chr1    935896  +   G   CT  del_plus    c.430del_not_c.431del
+chr1    935890  +   C   GAA del_plus    c.426del_not_c.424del
+chr1    1014476 +   TAA G   del_plus    p.Ter158delext*?
+chr1    1014473 +   AGCTAAGGG   CC  del_plus    p.S157_Ter158delext*?
+chr1    1014473 +   AGCTAA  GT  del_plus    p.S157_Ter158delext*?
+chr1    1014471 +   GGAGCT  AC  del_plus    p.R156_*158delinsGlnext*?
+chr1    69760188    +   TAGTGCAGTGCCTGGAGATGACCACCAAACGGAAAATCATCGGCCGTCTGGTGCCATGCCGATGTTTCCGAGGTGAAGAAGAAATCATCTCAGTTTTAGATTACTCCCACTGCAGTCTTCAGCAGGTGCCAAAGGAGGTCTTTAACTTCGAACGAACATTAGAGGAGCTTTATCTAGATGCCAATCAAATTGAAGAACTACCCAAGGTA   CCC del_plus    exon_del_M1_c.2-3_303+3del
+chr1    155206698   +   C   -   del_plus    Integenic
+chr1    155206698   +   CG  -   del_plus    Integenic
+chr1    155206699   +   G   -   del_plus    2KU
+chr1    155208698   +   CA  -   del_plus    2ku_utr5_discuss
+chr1    155208699   +   A   -   del_plus    UTR5
+chr1    155208804   +   CA  -   del_plus    utr5_atg_discuss
+chr6    87409841    +   TG  -   del_plus    p.Met1Thr
+chr6    87409842    +   GCCTCCAACTCA    -   del_plus    p.Pro2_Gln5del
+chr6    87409842    +   GCCTCCAACTCAG   -   del_plus    p.Pro3Lysfs*4
+chr6    87409844    +   CT  -   del_plus    p.Pro2Leufs*10
+chr1    1014474 +   GC  -   del_plus    p.Set157Ilefs*?
+chr1    1014416 +   AGC -   del_plus    p.Ser138del
+chr1    1014405 +   TCA -   del_plus    p.Leu134_Lys135delinsGln
+chr6    87409947    +   G   -   del_plus    p.Val37Ter
+chr6    87409943    +   TTATGGTAAG  -   del_plus    p.Phe35Ter
+chr6    87409949    +   T   -   del_plus    P.Val37Glufs*7
+chr6    87409949    +   TAAG    -   del_plus    P.Val37Glufs*6
+chr6    87409960    +   ATTT    -   del_plus    INT_CFAP206
+chr6    87410575    +   TTTTTTCTAG  -   del_plus    intron_spa_del_discuss
+chr6    87410583    +   AG  -   del_plus    SPL_discuss
+chr6    87410584    +   G   -   del_plus    p.Val37Ter_discuss
+chr6    87410584    +   GGT -   del_plus    p.Val37del
+chr6    87410584    +   GG  -   del_plus    SPL_CFAP206_discuss
+chr1    1014478 +   A   -   del_plus    p.Ter158Ter
+chr1    1014478 +   AGG -   del_plus    p.Ter158Ter
+chr1    1014477 +   AAGG    -   del_plus    p.Ter158Cysfs*14
+chr1    1014482 +   C   -   del_plus    UTR3_ISG15
+chr1    1014540 +   AT  -   del_plus    utr3_2kd_discuss
+chr6    87464480    +   T   -   del_plus    2KD_ISG15
+chr6    87466465    +   CA  -   del_plus    2kd_intergenic_discuss
+chr1    935896  +   G   -   del_plus    c.430del_not_c.431del
+chr1    935890  +   C   -   del_plus    c.426del_not_c.424del
+chr1    1014476 +   TAA -   del_plus    p.Ter158del
+chr1    1014473 +   AGCTAAGGG   -   del_plus    p.S157_Ter158delext*?
+chr1    1014473 +   AGCTAA  -   del_plus    p.S157_Ter158delext*?
+chr1    1014471 +   GGAGCT  -   del_plus    p.R156_*158delinsGlnext*?
+chr1    69760188    +   TAGTGCAGTGCCTGGAGATGACCACCAAACGGAAAATCATCGGCCGTCTGGTGCCATGCCGATGTTTCCGAGGTGAAGAAGAAATCATCTCAGTTTTAGATTACTCCCACTGCAGTCTTCAGCAGGTGCCAAAGGAGGTCTTTAACTTCGAACGAACATTAGAGGAGCTTTATCTAGATGCCAATCAAATTGAAGAACTACCCAAGGTA   -   del_plus    exon_del_M1
+chr1    115639990   -   G   -   del_minus   Intergenic
+chr1    115639991   -   TG  -   del_minus   intergenic_2ku_discuss
+chr1    115641990   -   C   -   del_minus   2KU_VANGL1
+chr1    115641991   -   CC  -   del_minus   2ku_utr5_discuss
+chr1    115641991   -   C   -   del_minus   UTR5_VANGL1
+chr1    115651414   -   TA  -   del_minus   utr5_atg_discuss
+chr17   43124095    -   TG  -   del_minus   p.Met1Arg
+chr1    1206569 -   GGCACA  -   del_minus   p.Ala2_Gln3del
+chr17   43124094    -   GGATTTATCTGCTCTTC   -   del_minus   p.Asp2Argfs*2
+chr17   43124075    -   GT  -   del_minus   p.Val8Ter
+chr1    1787335 -   AC  -   del_minus   p.Asn340Ilefs*?
+chr17   43124075    -   GTT -   del_minus   p.Val8del
+chr17   43124088    -   ATC -   del_minus   p.Leu3_Ser4delinsPhe
+chr17   43124017    -   GGT -   del_minus   p.Cys27Ter
+chr17   43124017    -   GGTA    -   del_minus   p.Cys27Ter
+chr17   43124016    -   GT  -   del_minus   p.Cys27Ter
+chr17   43124016    -   GTA -   del_minus   p.Cys27Ter
+chr17   43124005    -   C   -   del_minus   INT_BRCA1
+chr17   43115784    -   GCTAG   -   del_minus   intro_spa_del_discuss
+chr17   43115780    -   G   -   del_minus   SPL_discuss
+chr1    1205493 -   G   -   del_minus   p.Gly63Alafs*104
+chr17   43115780    -   GTCT    -   del_minus   p.Cys27_Leu28Trp
+chr17   43115780    -   GT  -   del_minus   SPL_BRCA1_discuss
+chr1    19342762    -   A   -   del_minus   p.Ter278Ter
+chr17   41619594    -   AGG -   del_minus   p.Ter433Ter
+chr17   41619594    -   AG  -   del_minus   p.Ter433Trpfs*42
+chr17   41619588    -   C   -   del_minus   UTR3_KRT17
+chr17   41619442    -   TA  -   del_minus   utr3_2kd_discuss
+chr17   41619405    -   G   -   del_minus   2KD_KRT17
+chr17   41617437    -   GG  -   del_minus   2kd_intergenic_discuss
+chr1    72009   +   -   C   ins_plus    Intergenic_OR4F5_start
+chr1    3750397 +   -   G   ins_plus    Intergenic_CCDC27_end
+chr1    958587  +   -   C   ins_plus    2KU_KLHL17_start
+chr1    960585  +   -   G   ins_plus    2KU_KLHL17_middle
+chr1    960586  +   -   T   ins_plus    2KU_KLHL17_end
+chr1    960587  +   -   C   ins_plus    UTR5_KLHL17_start
+chr1    960588  +   -   T   ins_plus    UTR5_KLHL17_middle
+chr1    960693  +   -   C   ins_plus    UTR5_KLHL17_end
+chr6    87409840    +   -   T   ins_plus    UTR5_ATG_between
+chr6    87409841    +   -   A   ins_plus    p.Met1=
+chr6    87409841    +   -   A   ins_plus    p.Met1Asn_discuss
+chr6    87409841    +   -   TGA ins_plus    p.Met1delinsMetMet_discuss
+chr6    87409842    +   -   AAT ins_plus    p.Met1delinsIleMet_discuss
+chr6    87409845    +   -   A   ins_plus    p.Pro3Serfs*28_Pro2_does_not_change
+chr6    87464245    +   -   T   ins_plus    p.Thr622Tyrfs*10
+chr1    1014475 +   -   T   ins_plus    p.S157Sfs*?
+chr6    87409848    +   -   TTA ins_plus    p.Thr4Ter
+chr6    87464236    +   -   CCT ins_plus    p.Asp618_Val619insPro
+chr6    87461165    +   -   A   ins_plus    exon_L546_CFAP206_before_SPD_discuss
+chr6    87461166    +   -   A   ins_plus    SPL_L546_A547_CFAP206_SPD_pos1_discuss
+chr6    87461167    +   -   G   ins_plus    SPL_L546_A547_CFAP206_SPD_pos2_discuss
+chr6    87461168    +   -   G   ins_plus    Intron_after_SPD_discuss
+chr6    87461180    +   -   AAG ins_plus    INT_CFAP206
+chr6    87464020    +   -   A   ins_plus    exon_after_SPA_discuss
+chr6    87464019    +   -   A   ins_plus    SPL_L546_A547_CFAP206_SPA_pos1_samebase_discuss
+chr6    87464019    +   -   T   ins_plus    SPL_L546_A547_CFAP206_SPA_pos1_difbase_discuss
+chr6    87464018    +   -   T   ins_plus    SPL_L546_A547_CFAP206_SPA_pos2_discuss
+chr6    87464017    +   -   T   ins_plus    intron_before_SPA
+chr6    87461165    +   -   CCC ins_plus    p.Leu546delinsPhePro
+chr6    87461165    +   -   CTA ins_plus    p.Leu546delinsPhe*
+chr6    87461165    +   -   A   ins_plus    p.Ala547Glyfa*2
+chr20   408779  +   -   A   ins_plus    p.Arg14Lysfs*64
+chr20   408779  +   -   AA  ins_plus    p.Arg14?
+chr20   408779  +   -   AATAAG  ins_plus    p.Arg14delinsLysTer
+chr20   408779  +   -   AAG ins_plus    p.Arg14delinsLysGly
+chr1    1014478 +   -   TT  ins_plus    p.Ter158Tyrfs*2
+chr1    1014478 +   -   C   ins_plus    p.Ter158Tyrfs*?
+chr1    1014477 +   -   TTT ins_plus    p.Ser157_Ter158insPhe
+chr1    1014477 +   -   AAT ins_plus    p.Ter158=
+chr1    1014478 +   -   A   ins_plus    p.Ter158=
+chr6    87464251    +   -   G   ins_plus    UTR3_CFAP206_start
+chr6    87464450    +   -   A   ins_plus    UTR3_CFAP206_middle
+chr6    87464465    +   -   T   ins_plus    UTR3_CFAP206_end
+chr6    87464466    +   -   A   ins_plus    2KD_CFAP206_start
+chr6    87464480    +   -   G   ins_plus    2KD_CFAP206_middle
+chr6    87466465    +   -   T   ins_plus    2KD_CFAP206_end
+chr6    87409878    +   -   A   ins_plus    AT_dup
+chr6    87464236    +   -   GATGAT  ins_plus    repeat
+chr6    87409845    +   -   TATGCC  ins_plus    p.M1_P2dup
+chr6    87461163    +   -   A   ins_plus    codonpos1ins1
+chr6    87461163    +   -   AG  ins_plus    codonpos1ins2
+chr6    87461163    +   -   AGA ins_plus    codonpos1ins3
+chr6    87461164    +   -   G   ins_plus    codonpos2ins1
+chr6    87461164    +   -   GG  ins_plus    codonpos2ins2
+chr6    87461164    +   -   GGT ins_plus    codonpos2ins3
+chr6    87461165    +   -   T   ins_plus    codonpos3ins1
+chr6    87461165    +   -   AG  ins_plus    codonpos3ins2
+chr6    87461165    +   -   AGA ins_plus    codonpos3ins3
+chr6    87409841    +   -   TTTTTATGGAGTTGA ins_plus    p.M1_M2insEL
+chr6    87461164    +   -   TTGGGTGAT   ins_plus    p.L546delinsFG*
+chr6    87461159    +   -   AAAATAGAT   ins_plus    p.L546*
+chr1    1014478 +   -   TGGGCCTTG   ins_plus    p.*158Yext*3
+chr6    87409838    +   -   TGA ins_plus    p.M1ext-2
+chr20   408779  +   -   AAGGGTAAG   ins_plus    p.Arg14delinsLysTer
+chr1    1014476 +   -   GGGTAA  ins_plus    p.Ser157_Ter158insGly
+chr1    1014478 +   -   TAA ins_plus    p.*158Y?_discuss
+chr6    87409856    +   -   CCGAAAGTACTCAGG ins_plus    p.T4_S8dup
+chr1    935862  +   -   GA  ins_plus    c.399_400dup
+chr1    935682  +   -   AC  ins_plus    c.?
+chr1    162393264   -   -   G   snv_minus   Intergenic_SH2D1B_start
+chr1    1076308 -   -   T   snv_minus   Intergenic_end_RNF223
+chr1    1076307 -   -   G   snv_minus   2KU_RNF223_start
+chr1    1074309 -   -   T   snv_minus   2KU_RNF223_middle
+chr1    1074308 -   -   T   snv_minus   2KU_RNF223_end
+chr17   43124115    -   -   G   snv_minus   UTR5_BRCA1_start
+chr17   43124105    -   -   G   snv_minus   UTR5_BRCA1_middle
+chr17   43124097    -   -   T   snv_minus   UTR5_BRCA1_end
+chr17   43124096    -   -   A   ins_minus   UTR5
+chr17   43124094    -   -   T   ins_minus   p.Met1Ile_discuss
+chr17   43124094    -   -   GAT ins_minus   p.Met1MetMet_discuss
+chr17   43124094    -   -   TTA ins_minus   p.Met1delinsIleTer
+chr17   43124094    -   -   TAT ins_minus   p.Met1IleMet_discuss
+chr17   41624181    -   -   T   ins_minus   p.Thr110Aspfs*2_KRT17
+chr17   41619599    -   -   A   ins_minus   p.Arg432Profs*44
+chr17   41619599    -   -   AA  ins_minus   p.Arg432Thrfs*?
+chr17   41619615    -   -   TTT ins_minus   p.Gln426Leu*
+chr17   41619615    -   -   GGG ins_minus   p.Gln426ArgGlu
+chr17   41620534    -   -   T   ins_minus   SPL_KRT17
+chr17   41620533    -   -   A   ins_minus   SPL_KRT17
+chr17   41620530    -   -   C   ins_minus   INT_KRT17
+chr17   41620558    -   -   A   ins_minus   SPA_discuss
+chr17   41620558    -   -   G   ins_minus   SPA_discuss
+chr17   41620559    -   -   T   ins_minus   SPA_discuss
+chr17   41620535    -   -   CTT ins_minus   p.Pro402LeuPro
+chr17   41620535    -   -   CTTTGA  ins_minus   p.Pro402Leu*
+chr17   41620658    -   -   A   ins_minus   p.His394Glnfs*82
+chr1    1255486 -   -   G   ins_minus   p.Glu114Glyfs*3_UBE2J2
+chr1    1255486 -   -   TGA ins_minus   p.Glu114*
+chr1    1255486 -   -   TTT ins_minus   p.Glu114PheGlu
+chr17   41619594    -   -   T   ins_minus   p.Ter433Leufs*43
+chr1    1255204 -   -   A   ins_minus   p.Ter208fs*?
+chr1    1255203 -   -   AGT ins_minus   p.Ter208PheTer
+chr1    1255203 -   -   AAG ins_minus   p.Ter208Ter
+chr1    1255201 -   -   A   ins_minus   UTR3_UBE2J2
+chr1    1255198 -   -   A   ins_minus   UTR3_UBE2J2
+chr1    1255177 -   -   A   ins_minus   UTR3_UBE2J2
+chr1    1255176 -   -   A   ins_minus   2KD_UBE2J2
+chr1    1254999 -   -   C   ins_minus   2KD_UBE2J2
+chr1    1243177 -   -   G   ins_minus   2KD_UBE2J2
+chr17   43124094    -   -   TGA ins_minus   p.Met1?
+chr1    72009   +   T   C   snv_plus    Intergenic_OR4F5
+chr1    3750397 +   T   G   snv_plus    Intergenic_OR4F5
+chr1    958587  +   A   C   snv_plus    2KU_KLHL17_start
+chr1    960585  +   G   C   snv_plus    2KU_KLHL17_middle
+chr1    960586  +   G   A   snv_plus    2KU_KLHL17_end
+chr1    960587  +   A   C   snv_plus    UTR5_KLHL17_start
+chr1    960588  +   G   T   snv_plus    UTR5_KLHL17_middle
+chr1    960693  +   A   C   snv_plus    UTR5_KLHL17_end
+chr1    925921  +   G   A   snv_plus    Intron_UTR5_start
+chr1    925920  +   A   T   snv_plus    Intron_UTR5_middle
+chr1    925801  +   G   T   snv_plus    Intron_UTR5_end
+chr6    87409840    +   A   T   snv_plus    p.Met1Leu_atg
+chr6    87464020    +   G   A   snv_plus    p.Ala547Thr_exon_start
+chr6    87464235    +   T   C   snv_plus    p.Asp618Asp
+chr6    87464233    +   G   C   snv_plus    p.Asp618His
+chr6    87461165    +   G   A   snv_plus    p.Leu546Leu_exon_end
+chr6    87461165    +   G   C   snv_plus    p.Leu546Phe_exon_end
+chr1    155213430   +   G   A   snv_plus    INT_MTX1_before_midpoint
+chr1    155213440   +   C   T   snv_plus    INT_MTX1_after_midpoint
+chr1    155213479   +   C   T   snv_plus    INT_MTX1_middle
+chr8    43018498    +   G   A   snv_plus    p.Ter719Ter
+chr8    43018499    +   A   T   snv_plus    UTR3_HOOK3_start
+chr8    43018504    +   T   A   snv_plus    UTR3_HOOK3_middle
+chr8    43030535    +   A   T   snv_plus    UTR3_HOOK3_end
+chr1    155214824   +   C   T   snv_plus    2KD_MTX1_middle
+chr1    162393265   -   T   G   snv_minus   Intergenic_start_RND2
+chr1    1076308 -   G   T   snv_minus   Intergenic_end_RNF223
+chr1    1076307 -   A   G   snv_minus   2KU_RNF223_start
+chr1    1074309 -   C   T   snv_minus   2KU_RNF223_middle
+chr1    1074308 -   C   T   snv_minus   2KU_RNF223_end
+chr17   43124115    -   T   G   snv_minus   UTR5_BRCA1_start
+chr17   43124105    -   C   G   snv_minus   UTR5_BRCA1_middle
+chr17   43124097    -   A   T   snv_minus   UTR5_BRCA1_end
+chr17   43124096    -   A   T   snv_minus   p.Met1Leu_atg
+chr17   41624183    +   G   T   snv_minus   p.Asn109Lys
+chr17   41624179    +   C   A   snv_minus   p.Asp111Ter
+chr17   41624080    -   A   G   snv_minus   p.Lys144Lys_exon_end
+chr17   43082404    +   C   T   snv_minus   p.Ala311Thr_exon_end
+chr17   43045680    +   A   G   snv_minus   p.Ter722Arg
+chr17   43045679    +   C   T   snv_minus   p.Ter722Ter
+chr17   43045677    +   G   T   snv_minus   UTR3_BRCA1_start
+chr17   43044296    +   A   G   snv_minus   UTR3_BRCA1_middle
+chr17   43044295    +   A   T   snv_minus   UTR3_BRCA1_end
+chr17   43044294    +   C   G   snv_minus   2KD_BRCA1_start
+chr17   43044293    +   C   G   snv_minus   2KD_BRCA1_middle
+chr17   43042295    +   T   C   snv_minus   2KD_BRCA1_end
+chr22 46356951 + - CTGAGAGCCCCAGTGACAGCCCAGAAGATGGTCCAGGCCTGAGTCCCTTGCTCTGACAGAGATGGATCTGCTAGAAGGAAC
+chr22 26491659 + - CTGCTACTGACTGAACTCGTTGTG
+chr22 44862582 + - GAAGACGTCTCTAGTGTTGC
+chr1 11846008 + TT -
+chr1 25800233 + - GGGC
+chr19 38408862 + AAG - s1 same_aa_until_ter_exonend_ENST00000252530.9_c.1045_1047del_p.Lys349del
+chr3 197003375 + GAGGGCGGGCGGGAGCAGGCGGGCGGC - s1 del_until_before_ter_ENST00000296350.10_c.2188_2214del_p.Ala730_Leu738del
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

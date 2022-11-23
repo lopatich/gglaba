@@ -1,0 +1,19 @@
+title: Standard Output Reporter
+version: 1.2.1
+no_data: true
+type: reporter
+description: STDOUT reporter
+requires_oakvar: '>=2.1.3'
+developer:
+  name: Ryangguk Kim
+  organization: Oak Bioinformatics, LLC
+  email: rkim@oakbioinformatics.com
+  website: https://oakbioinformatics.com
+  citation: ''
+hidden: false
+tags:
+- input/output
+release_note:
+  1.2.0: OakVar version
+  1.1.0: works with --concise-report option.
+  1.0.0: Initial release

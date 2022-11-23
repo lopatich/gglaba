@@ -1,0 +1,30 @@
+title: Protein diagram
+version: 2.3.0
+data_version: 2.2.0
+requires_oakvar: '>=2.5.20'
+required_annotator: base
+type: webviewerwidget
+description: Protein diagram webviewer widget
+developer:
+  name: Ryangguk Kim
+  organization: Oak Bioinformatics, LLC
+  email: rkim@oakbioinformatics.com
+  website: https://oakbioinformatics.com
+  citation: ''
+tags:
+- visualization
+release_note:
+  2.3.0: oakvar version
+  2.2.0: improved transcript mapping among UniProt, TCGA, and OpenCRAVAT and indel positioning.
+  2.1.0: update with gencode v33
+  2.0.2: aiosqlite instead of aiosqlite3
+  1.3.0: works with oc 1.8.1 and hg38.
+  1.2.0: works with single variant page in oc 1.7.0.
+  1.1.11: works with a call with a data object.
+  1.1.10: works with 1.6.0 and improved drawing.
+  1.1.9: long variant list stays in widget div.
+  1.1.8: fixed table width.
+  1.1.7: my variant color works with 1.5.0 and before.
+  1.1.6: works with 1.5.0. variant table size fix.
+  1.1.3: variant table hover highlights lollipop
+hidden: true

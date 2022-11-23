@@ -1,0 +1,28 @@
+title: Gene Ontology Summary
+version: 2.5.0
+data_version: 2.4.0
+type: webviewerwidget
+requires_oakvar: '>=2.5.12'
+required_annotator: base
+requires:
+- go
+description: Gene Ontology Summary webviewer widget
+developer:
+  name: Ryangguk Kim
+  organization: Oak Bioinformatics, LLC
+  email: rkim@oakbioinformatics.com
+  website: http://oakbioinformatics.com
+  citation: ''
+release_note:
+  2.5.0: works with loading with filters.
+  2.4.0: works with OakVar.
+  2.3.0: F or mfo for aspect
+  2.2.0: new color scheme
+  2.1.1: bug fix
+  2.1.0: updated data used from go annotator
+  2.0.2: aiosqlite instead of aiosqlite3
+  1.0.8: self-hides if no data
+  1.0.7: aiosqlite3 version
+  1.0.4: auto hide for no coding variant
+tags:
+- visualization

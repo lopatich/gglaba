@@ -1,0 +1,26 @@
+title: Text Reporter
+version: 2.2.0
+no_data: true
+type: reporter
+description: Text format reporter
+requires_oakvar: '>=2.5.20'
+output_filename_schema:
+- '{run_name}.tsv'
+developer:
+  module:
+    name: Ryangguk Kim
+    organization: Oak Bioinformatics, LLC
+    email: rkim@oakbioinformatics.com
+    website: https://oakbioinformatics.com
+    citation: ''
+release_note:
+  2.2.0: works with OakVar.
+  2.1.0: works with --concise-report option.
+  2.0.0: returns output file path.
+  1.0.7: for oc 1.8.1 and hg38 2nd
+  1.0.6: added output_filename_schema.
+  1.0.5: version up
+  1.0.4: no async write_table_row
+  1.0.2: regex substitution
+tags:
+- input/output

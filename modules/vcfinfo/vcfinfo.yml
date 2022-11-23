@@ -1,0 +1,66 @@
+title: VCF Info
+version: 1.2.0
+no_data: true
+requires_oakvar: 2.6.0
+type: postaggregator
+name: vcfinfo
+level: variant
+input_level: variant,crs,crm
+output_columns:
+- name: phred
+  title: Phred
+  type: string
+  width: 70
+  filterable: true
+  desc: Phred quality score
+- name: filter
+  title: VCF filter
+  type: string
+  width: 70
+  category: multi
+  filterable: true
+- name: zygosity
+  title: Zygosity
+  type: string
+  width: 100
+  category: multi
+  filterable: true
+- name: alt_reads
+  title: Alternate reads
+  type: string
+  width: 60
+  filterable: true
+- name: tot_reads
+  title: Total reads
+  type: string
+  width: 70
+  filterable: true
+- name: af
+  title: Variant AF
+  type: string
+  width: 90
+- name: hap_block
+  title: Haplotype block ID
+  type: int
+  width: 90
+- name: hap_strand
+  title: Haplotype strand ID
+  type: int
+  width: 90
+description: Writes VCF file information extracted by converter
+developer:
+  name: ["Ryangguk Kim", "OpenCRAVAT Team"]
+  organization: ["Oak Bioinformatics, LLC", "In Silico Solutions"]
+  email: "rkim@oakbioinformatics.com"
+  website: "http://oakbioinformatics.com"
+  citation: ''
+release_note:
+  1.2.0: works with OakVar 2.6.0.
+  1.1.5: check info table to see if runnable
+  1.1.1: handles vcf with only first 5 columns.
+  1.1.0: Handle copy number information
+  1.0.7: altread and af None to empty string to accommodate error handling of vcf-converter
+  1.0.4: filter is multi category.
+  1.0.3: zygosity is multi category.
+requires:
+- wgvcfinfo

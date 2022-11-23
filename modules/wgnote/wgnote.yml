@@ -1,0 +1,21 @@
+title: Note
+type: webviewerwidget
+version: 2.1.0
+no_data: true
+requires_oakvar: '>=2.5.20'
+hidden: true
+columnwidth:
+- note__text: 100
+description: Note-taking widget
+developer:
+  citation: ''
+  email: rkim@oakbioinformatics.com
+  name: Ryangguk Kim
+  organization: Oak Bioinformatics, LLC
+  website: https://oakbioinformatics.com
+required_annotator: base
+tags:
+- visualization
+release_note:
+  2.1.0: oakvar version
+  2.0.2: aiosqlite instead of aiosqlite3

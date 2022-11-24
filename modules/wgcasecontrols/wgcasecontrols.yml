@@ -1,0 +1,18 @@
+title: Case-Control - Most significant p-values
+version: 1.1.0
+no_data: true
+type: webviewerwidget
+required_annotator: base
+description: Case-Control - Most significant p-values webviewer widget
+requires_oakvar: '>=2.5.20'
+developer:
+  name: ['Madison Larsen', 'Ryangguk Kim']
+  organization: ['In Silico Solutions', 'Oak Bioinformatics, LLC']
+  email: ['mlarsen@insilico.us.com', 'rkim@oakbioinformatics.com']
+  website: ['http://www.insilico.us.com', 'https://oakbioinformatics.com']
+  citation: ''
+tags:
+- visualization
+release_note:
+  1.1.0: oakvar version
+  1.0.0: Initial release
